@@ -1,0 +1,39 @@
+name: Build Schedules
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event.pull_request.merged == true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Build schedules.json
+        run: python3 scripts/build-schedules.py
+
+      - name: Commit and push if changed
+        run: |
+          if ! git diff --quiet docs/schedules.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/schedules.json
+            git commit -m "build: regenerate schedules.json"
+            git push
+          else
+            echo "No changes to schedules.json"
+          fi
