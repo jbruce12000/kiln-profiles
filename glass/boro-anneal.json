@@ -1,0 +1,1 @@
+{"data":[[0,18],[6564,565],[10164,565],[14244,480],[15072,20]],"type":"profile","name":"boro-anneal","tags":["glass","boro","coe33","anneal","lampwork"],"description":"Annealing schedule for borosilicate (COE33) lampwork. Heat to 565C, soak 60 minutes, then slow cool to 480C before the kiln can cool naturally.","units":"C"}

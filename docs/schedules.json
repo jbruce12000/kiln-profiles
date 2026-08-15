@@ -6,35 +6,740 @@
         65
       ],
       [
-        2152,
-        248
+        8127,
+        968
       ],
       [
-        5752,
-        248
+        11727,
+        968
       ],
       [
-        23222,
-        1733
+        15975,
+        850
       ],
       [
-        26522,
-        1832
+        19575,
+        850
       ],
       [
-        27422,
-        1832
+        20979,
+        70
       ]
     ],
     "type": "profile",
-    "name": "bq1000-bisque",
+    "name": "bead-anneal-coe104",
     "tags": [
-      "bisque",
-      "cone05",
-      "pottery",
-      "plainsman"
+      "glass",
+      "beads",
+      "coe104",
+      "anneal",
+      "lampwork"
     ],
-    "description": "The Plainsman BQ1000 electric bisque firing schedule from digitalfire.com. Ramps at 306F/hr to 248F, holds 60 minutes to expel water, fires to cone 05 with a final 15 minute soak.",
+    "description": "Batch anneal for soft glass (COE104) lampwork beads. Soak at 968F for 1 hour, cool slowly to 850F, hold again, then kiln off.",
+    "units": "F",
+    "category": "glass"
+  },
+  {
+    "data": [
+      [
+        0,
+        18
+      ],
+      [
+        6564,
+        565
+      ],
+      [
+        10164,
+        565
+      ],
+      [
+        14244,
+        480
+      ],
+      [
+        15072,
+        20
+      ]
+    ],
+    "type": "profile",
+    "name": "boro-anneal",
+    "tags": [
+      "glass",
+      "boro",
+      "coe33",
+      "anneal",
+      "lampwork"
+    ],
+    "description": "Annealing schedule for borosilicate (COE33) lampwork. Heat to 565C, soak 60 minutes, then slow cool to 480C before the kiln can cool naturally.",
+    "units": "C",
+    "category": "glass"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        27240,
+        1200
+      ],
+      [
+        30840,
+        1200
+      ],
+      [
+        40440,
+        1600
+      ],
+      [
+        51240,
+        1600
+      ],
+      [
+        53544,
+        960
+      ],
+      [
+        67944,
+        960
+      ],
+      [
+        125544,
+        800
+      ],
+      [
+        126420,
+        70
+      ]
+    ],
+    "type": "profile",
+    "name": "casting-open-face",
+    "tags": [
+      "glass",
+      "casting",
+      "coe90",
+      "thick-slab"
+    ],
+    "description": "Open-face casting schedule for thick (~1 inch) glass in a mold. Long bubble soak, slow climb to 1600F, several hour casting hold, then a long 4 hour anneal and very slow cool for thick sections.",
+    "units": "F",
+    "category": "glass"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        21330,
+        1250
+      ],
+      [
+        22530,
+        1250
+      ],
+      [
+        23574,
+        960
+      ],
+      [
+        27174,
+        960
+      ],
+      [
+        36534,
+        700
+      ],
+      [
+        36594,
+        700
+      ],
+      [
+        37350,
+        70
+      ]
+    ],
+    "type": "profile",
+    "name": "contour-slump",
+    "tags": [
+      "glass",
+      "slump",
+      "coe96",
+      "contour"
+    ],
+    "description": "Contour slump for COE96 glass using a slower ramp and lower peak so the glass follows the mold shape more closely.",
+    "units": "F",
+    "category": "glass"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        10215,
+        1200
+      ],
+      [
+        11115,
+        1200
+      ],
+      [
+        13515,
+        1400
+      ],
+      [
+        13815,
+        1400
+      ],
+      [
+        15399,
+        960
+      ],
+      [
+        18999,
+        960
+      ],
+      [
+        28359,
+        700
+      ],
+      [
+        28419,
+        700
+      ],
+      [
+        29175,
+        70
+      ]
+    ],
+    "type": "profile",
+    "name": "fire-polish",
+    "tags": [
+      "glass",
+      "polish",
+      "coe96",
+      "fire-polish"
+    ],
+    "description": "Fire polish for cut or ground edges of COE96 glass. Heats to 1400F just long enough to shine edges without changing the piece shape, then anneals.",
+    "units": "F",
+    "category": "glass"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        10440,
+        1225
+      ],
+      [
+        12240,
+        1225
+      ],
+      [
+        13770,
+        1480
+      ],
+      [
+        14370,
+        1480
+      ],
+      [
+        16242,
+        960
+      ],
+      [
+        19842,
+        960
+      ],
+      [
+        29202,
+        700
+      ],
+      [
+        29262,
+        700
+      ],
+      [
+        30018,
+        70
+      ]
+    ],
+    "type": "profile",
+    "name": "full-fuse-coe90",
+    "tags": [
+      "glass",
+      "fuse",
+      "coe90",
+      "bullseye",
+      "full-fuse"
+    ],
+    "description": "Bullseye-style full fuse for COE90 glass. Same as the COE96 schedule but fired 20F hotter to 1480F because COE90 is stiffer.",
+    "units": "F",
+    "category": "glass"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        10440,
+        1225
+      ],
+      [
+        12240,
+        1225
+      ],
+      [
+        13650,
+        1460
+      ],
+      [
+        14250,
+        1460
+      ],
+      [
+        16050,
+        960
+      ],
+      [
+        19650,
+        960
+      ],
+      [
+        29010,
+        700
+      ],
+      [
+        29070,
+        700
+      ],
+      [
+        29826,
+        70
+      ]
+    ],
+    "type": "profile",
+    "name": "full-fuse-coe96",
+    "tags": [
+      "glass",
+      "fuse",
+      "coe96",
+      "full-fuse"
+    ],
+    "description": "Bullseye-style 8 stage full fuse for COE96 glass (2 x 3mm layers). Bubble soak at 1225F, full fuse at 1460F, 1 hour anneal at 960F and controlled cool to 700F.",
+    "units": "F",
+    "category": "glass"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        13620,
+        1200
+      ],
+      [
+        14220,
+        1200
+      ],
+      [
+        15084,
+        960
+      ],
+      [
+        18684,
+        960
+      ],
+      [
+        28044,
+        700
+      ],
+      [
+        28104,
+        700
+      ],
+      [
+        28860,
+        70
+      ]
+    ],
+    "type": "profile",
+    "name": "slump",
+    "tags": [
+      "glass",
+      "slump",
+      "coe96",
+      "mold"
+    ],
+    "description": "Standard slump for a fused 6mm COE96 blank into a mold. Gentle 300F/hr ramp to 1200F, short process soak, then full anneal.",
+    "units": "F",
+    "category": "glass"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        10440,
+        1225
+      ],
+      [
+        12240,
+        1225
+      ],
+      [
+        13860,
+        1360
+      ],
+      [
+        14460,
+        1360
+      ],
+      [
+        15900,
+        960
+      ],
+      [
+        19500,
+        960
+      ],
+      [
+        28860,
+        700
+      ],
+      [
+        28920,
+        700
+      ],
+      [
+        29676,
+        70
+      ]
+    ],
+    "type": "profile",
+    "name": "tack-fuse-coe96",
+    "tags": [
+      "glass",
+      "fuse",
+      "coe96",
+      "tack-fuse"
+    ],
+    "description": "Tack fuse for COE96 glass. Stops at 1360F so layers bond while keeping texture and edge detail, then anneals fully. Good for jewelry and wall art.",
+    "units": "F",
+    "category": "glass"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        10260,
+        350
+      ],
+      [
+        39060,
+        350
+      ]
+    ],
+    "type": "profile",
+    "name": "aluminum-6061-age",
+    "tags": [
+      "metal",
+      "aluminum",
+      "6061",
+      "age",
+      "heat-treat"
+    ],
+    "description": "Artificial aging of 6061 aluminum to the T6 condition: hold at 350F for 8 hours after solution heat treating and quenching.",
+    "units": "F",
+    "category": "metal"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        11040,
+        985
+      ],
+      [
+        14640,
+        985
+      ]
+    ],
+    "type": "profile",
+    "name": "aluminum-6061-solution",
+    "tags": [
+      "metal",
+      "aluminum",
+      "6061",
+      "solution",
+      "heat-treat"
+    ],
+    "description": "Solution heat treatment of 6061 aluminum: heat to 985F, soak 1 hour, then quench in water for a T4/T6 temper path. Verify against your alloy data sheet.",
+    "units": "F",
+    "category": "metal"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        12240,
+        1425
+      ],
+      [
+        17640,
+        1425
+      ],
+      [
+        32940,
+        1000
+      ]
+    ],
+    "type": "profile",
+    "name": "o1-anneal",
+    "tags": [
+      "metal",
+      "steel",
+      "o1",
+      "anneal",
+      "tool-steel"
+    ],
+    "description": "Annealing O1 tool steel: soak at 1425F then slow cool in the kiln to 1000F to soften for rework.",
+    "units": "F",
+    "category": "metal"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        10215,
+        1200
+      ],
+      [
+        11115,
+        1200
+      ],
+      [
+        13590,
+        1475
+      ],
+      [
+        15390,
+        1475
+      ]
+    ],
+    "type": "profile",
+    "name": "o1-harden",
+    "tags": [
+      "metal",
+      "steel",
+      "o1",
+      "harden",
+      "tool-steel"
+    ],
+    "description": "Hardening O1 tool steel: preheat to 1200F, then austenitize at 1475F for 30 minutes before oil quenching outside the kiln. Expect 64-65 HRC as quenched.",
+    "units": "F",
+    "category": "metal"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        12465,
+        1450
+      ],
+      [
+        19665,
+        1450
+      ],
+      [
+        35865,
+        1000
+      ]
+    ],
+    "type": "profile",
+    "name": "steel-1080-anneal",
+    "tags": [
+      "metal",
+      "steel",
+      "1080",
+      "anneal"
+    ],
+    "description": "Annealing 1080 carbon steel: soak at 1450F, then slow cool in the kiln to 1000F before air cooling to soften the steel for machining.",
+    "units": "F",
+    "category": "metal"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        12915,
+        1500
+      ],
+      [
+        14115,
+        1500
+      ]
+    ],
+    "type": "profile",
+    "name": "steel-1080-harden",
+    "tags": [
+      "metal",
+      "steel",
+      "1080",
+      "harden",
+      "quench"
+    ],
+    "description": "Hardening 1080 carbon steel: heat to 1500F, soak 20 minutes, then quench in warm oil or water outside the kiln. Temper immediately after.",
+    "units": "F",
+    "category": "metal"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        13365,
+        1550
+      ],
+      [
+        14265,
+        1550
+      ]
+    ],
+    "type": "profile",
+    "name": "steel-1080-normalize",
+    "tags": [
+      "metal",
+      "steel",
+      "1080",
+      "normalize"
+    ],
+    "description": "Normalizing 1080 carbon steel: heat to 1550F, soak 15 minutes, then remove and air cool to refine grain and relieve stress before hardening.",
+    "units": "F",
+    "category": "metal"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        6030,
+        400
+      ],
+      [
+        13230,
+        400
+      ]
+    ],
+    "type": "profile",
+    "name": "steel-1080-temper-400",
+    "tags": [
+      "metal",
+      "steel",
+      "1080",
+      "temper"
+    ],
+    "description": "Tempering 1080 carbon steel at 400F for 2 hours to set final hardness around 57-58 HRC after hardening. Cool slowly, then repeat once for best results.",
+    "units": "F",
+    "category": "metal"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        2040,
+        150
+      ],
+      [
+        45240,
+        150
+      ]
+    ],
+    "type": "profile",
+    "name": "candling",
+    "tags": [
+      "pottery",
+      "candling",
+      "drying",
+      "greenware"
+    ],
+    "description": "A 12.5 hour pottery drying schedule to candle bone-dry or damp greenware at 150F for 12 hours. This gentle pre-fire drives off residual moisture and prevents steam explosions before a bisque firing.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        6300,
+        180
+      ],
+      [
+        9900,
+        180
+      ],
+      [
+        11580,
+        250
+      ],
+      [
+        21201,
+        1319
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-018-luster-clayshare",
+    "tags": [
+      "pottery",
+      "luster",
+      "overglaze",
+      "cone018",
+      "china-paint",
+      "decal",
+      "clayshare"
+    ],
+    "description": "A ClayShare cone 018 luster, china paint and overglaze decal firing: one hour preheat at 180F then a fast climb to 1319F, the cone 018 temperature.",
     "units": "F",
     "category": "pottery"
   },
@@ -45,35 +750,470 @@
         65
       ],
       [
-        6660,
-        250
+        25830,
+        1500
       ],
       [
-        10260,
-        250
+        27630,
+        1550
       ],
       [
-        29289,
-        2100
-      ],
-      [
-        32622,
-        2200
-      ],
-      [
-        33222,
-        2200
+        28230,
+        1550
       ]
     ],
     "type": "profile",
-    "name": "c6plst-cone6",
+    "name": "cone-018-lustre",
     "tags": [
-      "glaze",
-      "cone6",
       "pottery",
-      "plainsman"
+      "luster",
+      "overglaze",
+      "cone018",
+      "china-paint"
     ],
-    "description": "The Plainsman C6PLST cone 6 electric standard firing schedule from digitalfire.com. Used by the Plainsman lab to fire clay test bars. Ramps at 100F/hr to 250F, holds 60 minutes, then fires to cone 6 with a 10 minute soak.",
+    "description": "A low-fire profile for gold lusters, china paints and overglaze enamels fired to cone 018 (1550F) with a short soak. Apply luster over fired glaze and keep the kiln well vented.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        1800,
+        250
+      ],
+      [
+        3600,
+        250
+      ],
+      [
+        8700,
+        1950
+      ],
+      [
+        9600,
+        1950
+      ],
+      [
+        9960,
+        1850
+      ],
+      [
+        11760,
+        1850
+      ],
+      [
+        22560,
+        1400
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-03-fast-fire",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone03",
+      "fast-fire",
+      "electric",
+      "digitalfire"
+    ],
+    "description": "The Digitalfire 03DSFF cone 03 fast fire for thin-walled porcelain: a 1200F/hr blast to 1950F, drop to 1850F for 30 minutes, then a 150F/hr cool to 1400F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        3150,
+        250
+      ],
+      [
+        4950,
+        250
+      ],
+      [
+        20250,
+        1100
+      ],
+      [
+        34650,
+        1700
+      ],
+      [
+        42817,
+        1945
+      ],
+      [
+        43717,
+        1945
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-bisque-slow-kilnshed",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone04",
+      "slow",
+      "kilnshed"
+    ],
+    "description": "A Kiln Shed slow cone 04 bisque schedule: 30 minute candle at 250F, then steady ramps with a 108F/hr finish and 15 minute hold at 1945F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        5500,
+        240
+      ],
+      [
+        9100,
+        240
+      ],
+      [
+        21580,
+        1800
+      ],
+      [
+        22480,
+        1800
+      ],
+      [
+        25813,
+        1900
+      ],
+      [
+        26713,
+        1900
+      ],
+      [
+        27074,
+        1800
+      ],
+      [
+        28874,
+        1800
+      ],
+      [
+        38474,
+        1400
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-drop-and-hold",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone04",
+      "drop-and-hold",
+      "earthenware",
+      "digitalfire"
+    ],
+    "description": "The Digitalfire 04DSDH low-temperature drop-and-hold: soaks to clear bubbles on the way up, holds at 1900F, drops to 1800F for 30 minutes, then cools 150F/hr to 1400F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        4440,
+        250
+      ],
+      [
+        17445,
+        1695
+      ],
+      [
+        24945,
+        1945
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-fast-bisque",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone04"
+    ],
+    "description": "A ~7 hour pottery profile to bisque fire wares to cone 04 (1945F). Moderate ramps for clean burnout and a fast approach; best for thin, evenly dried ware.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        5250,
+        250
+      ],
+      [
+        14250,
+        1000
+      ],
+      [
+        16650,
+        1100
+      ],
+      [
+        28550,
+        1695
+      ],
+      [
+        36883,
+        1945
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-fast-bisque-bartlett",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone04",
+      "fast",
+      "bartlett"
+    ],
+    "description": "The Bartlett fast cone 04 bisque firing (Digitalfire BTFB04): brisk ramps through burnout and quartz inversion to a 108F/hr finish at 1945F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        4440,
+        250
+      ],
+      [
+        17445,
+        1695
+      ],
+      [
+        26445,
+        1945
+      ],
+      [
+        27045,
+        1945
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-glaze",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone04",
+      "earthenware"
+    ],
+    "description": "A ~7.5 hour low-fire pottery profile to glaze fire earthenware to cone 04 with a 10 minute soak at peak to smooth the glaze surface.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        10232,
+        1695
+      ],
+      [
+        14732,
+        1945
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-glaze-fast-bartlett",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone04",
+      "earthenware",
+      "fast",
+      "bartlett"
+    ],
+    "description": "The Bartlett controller fast cone 04 glaze firing: a quick two-step schedule at 570F/hr to 1695F then 200F/hr to 1945F with no holds.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        4200,
+        250
+      ],
+      [
+        17205,
+        1695
+      ],
+      [
+        26205,
+        1945
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-glaze-kilncontrol",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone04",
+      "earthenware",
+      "kilncontrol"
+    ],
+    "description": "A KilnControl cone 04 earthenware glaze firing: quick 400F/hr climb then a 100F/hr final ramp to 1945F to smooth the glaze melt.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        1260,
+        100
+      ],
+      [
+        11610,
+        1020
+      ],
+      [
+        13775,
+        1112
+      ],
+      [
+        28275,
+        1837
+      ],
+      [
+        32041,
+        1950
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-paragon-bisque",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone04",
+      "paragon"
+    ],
+    "description": "A Paragon cone 04 bisque firing with a 100F/hr start, a 153F/hr pass through quartz inversion, and a slow 108F/hr approach to 1950F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        6300,
+        250
+      ],
+      [
+        9900,
+        250
+      ],
+      [
+        26254,
+        1840
+      ],
+      [
+        29854,
+        1940
+      ],
+      [
+        30454,
+        1940
+      ],
+      [
+        30854,
+        1840
+      ],
+      [
+        32654,
+        1840
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-plainsman-drop-hold",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone04",
+      "drop-and-hold",
+      "earthenware",
+      "digitalfire"
+    ],
+    "description": "The Plainsman C04PLTP low-temperature drop-and-hold firing: soaks at 250F, climbs to 1940F, then drops 100F and holds 30 minutes to heal blisters and pinholes.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        8325,
+        250
+      ],
+      [
+        21825,
+        1000
+      ],
+      [
+        25425,
+        1100
+      ],
+      [
+        37325,
+        1695
+      ],
+      [
+        48575,
+        1945
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-04-slow-bisque",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone04"
+    ],
+    "description": "A ~13.5 hour pottery profile to bisque fire wares to cone 04. Very slow ramps through water smoke and quartz inversion burn off carbon for fewer bubbles during glaze firing.",
     "units": "F",
     "category": "pottery"
   },
@@ -131,6 +1271,922 @@
     "data": [
       [
         0,
+        75
+      ],
+      [
+        6300,
+        180
+      ],
+      [
+        17100,
+        180
+      ],
+      [
+        20250,
+        250
+      ],
+      [
+        33750,
+        1000
+      ],
+      [
+        37350,
+        1100
+      ],
+      [
+        48170,
+        1641
+      ],
+      [
+        56180,
+        1819
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-05-slow-bisque-clayshare",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone05",
+      "slow",
+      "clayshare"
+    ],
+    "description": "A ClayShare cone 05 slow bisque schedule: three hour preheat at 180F then a long gentle firing with a slow 80F/hr finish to 1819F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        7875,
+        250
+      ],
+      [
+        21375,
+        1000
+      ],
+      [
+        24975,
+        1100
+      ],
+      [
+        36875,
+        1695
+      ],
+      [
+        43040,
+        1832
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-06-bisque-kilncontrol",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone06",
+      "earthenware",
+      "kilncontrol"
+    ],
+    "description": "A KilnControl cone 06 bisque firing: slow water-smoke ramp, quartz inversion slowdown, and an 80F/hr finish to 1832F for clean burnout on earthenware.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        4860,
+        200
+      ],
+      [
+        6660,
+        200
+      ],
+      [
+        36660,
+        1100
+      ],
+      [
+        43836,
+        1698
+      ],
+      [
+        47169,
+        1798
+      ],
+      [
+        48189,
+        1798
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-06-bisque-standard",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone06"
+    ],
+    "description": "A ~13 hour pottery profile to bisque fire wares to cone 06 with a 30 minute candle, slow water-smoke ramp, and a short soak near peak for even hardening.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        5220,
+        220
+      ],
+      [
+        8820,
+        220
+      ],
+      [
+        33780,
+        2300
+      ],
+      [
+        35813,
+        2361
+      ],
+      [
+        39413,
+        2361
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-10-electric",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone10",
+      "electric",
+      "oxidation",
+      "porcelain"
+    ],
+    "description": "A cone 10 electric glaze firing: one hour candle at 220F, a 300F/hr climb to 2300F, then a 108F/hr final ramp to 2361F with a one hour hold for cone 10 porcelain.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        3330,
+        250
+      ],
+      [
+        23387,
+        2200
+      ],
+      [
+        28220,
+        2345
+      ],
+      [
+        29120,
+        2345
+      ],
+      [
+        30680,
+        2280
+      ],
+      [
+        32480,
+        2280
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-10-glaze",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone10",
+      "porcelain",
+      "high-fire"
+    ],
+    "description": "A high-fire pottery profile to glaze fire stoneware and porcelain to cone 10 (2345F) with a 15 minute soak at peak and a drop-and-hold to even out the melt.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        4200,
+        250
+      ],
+      [
+        22714,
+        2050
+      ],
+      [
+        28714,
+        2250
+      ],
+      [
+        31114,
+        2290
+      ],
+      [
+        33364,
+        2315
+      ],
+      [
+        34264,
+        2315
+      ],
+      [
+        39799,
+        1700
+      ],
+      [
+        45199,
+        1700
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-10-slow-cool-kaki",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone10",
+      "oxidation",
+      "slow-cool",
+      "glazy"
+    ],
+    "description": "A cone 10 oxidation slow-cooling schedule for Kaki/Tomato Red glaze (Glazy): a very gentle 40F/hr final approach to 2315F, then a controlled 400F/hr cool to 1700F with a 90 minute hold.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        35000,
+        250
+      ],
+      [
+        65880,
+        1022
+      ],
+      [
+        81440,
+        1800
+      ],
+      [
+        105440,
+        2400
+      ],
+      [
+        105840,
+        2300
+      ],
+      [
+        107640,
+        2300
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-12-bisque-kilncontrol",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone12",
+      "high-fire",
+      "drop-and-hold",
+      "kilncontrol"
+    ],
+    "description": "A KilnControl cone 12 bisque firing for high-fire porcelain: glacial 18F/hr water-smoke ramp, then a drop-and-hold from 2400F down 100F for 30 minutes.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        6900,
+        180
+      ],
+      [
+        12300,
+        180
+      ],
+      [
+        13980,
+        250
+      ],
+      [
+        28983,
+        1917
+      ],
+      [
+        36483,
+        2167
+      ],
+      [
+        37263,
+        2167
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-5-glaze-clayshare",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone5",
+      "clayshare"
+    ],
+    "description": "A ClayShare cone 5 glaze firing: 90 minute candle at 180F, moderate climb to 1917F, then a slow 120F/hr final ramp to 2167F with a 13 minute hold.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        10112,
+        1676
+      ],
+      [
+        14612,
+        1926
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-5-glaze-fast-bartlett",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone5",
+      "fast",
+      "bartlett"
+    ],
+    "description": "The Bartlett fast cone 05 glaze firing (Digitalfire BRTF05): 570F/hr to 1676F then 200F/hr to 1926F with no holds.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        5250,
+        250
+      ],
+      [
+        18084,
+        1676
+      ],
+      [
+        25584,
+        1926
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-5-glaze-slow-bartlett",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone5",
+      "slow",
+      "bartlett"
+    ],
+    "description": "The Bartlett slow cone 05 glaze firing (Digitalfire BTSG05): a gentle 120F/hr approach through the last 250F to finish at 1926F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        7132,
+        701
+      ],
+      [
+        13658,
+        1999
+      ],
+      [
+        20150,
+        2210
+      ],
+      [
+        21211,
+        1999
+      ],
+      [
+        21719,
+        1898
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-crystalline-plainsman",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "crystalline",
+      "digitalfire"
+    ],
+    "description": "The Plainsman PLC6CR cone 6 crystalline glaze firing: a fast climb to 2210F then rapid controlled drops to 1999F and 1898F to grow zinc silicate crystals.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        8140,
+        482
+      ],
+      [
+        12640,
+        932
+      ],
+      [
+        18184,
+        2318
+      ],
+      [
+        18797,
+        2012
+      ],
+      [
+        27797,
+        1967
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-crystalline-shimbo",
+    "tags": [
+      "pottery",
+      "glaze",
+      "crystalline",
+      "cone6",
+      "digitalfire"
+    ],
+    "description": "Fara Shimbo's crystalline glaze schedule 1 (Digitalfire FSCG1): a very fast 900F/hr climb to 2318F, crash cool to 2012F, then a 18F/hr crawl to 1967F to grow crystals.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        3330,
+        250
+      ],
+      [
+        24330,
+        2000
+      ],
+      [
+        31290,
+        2232
+      ],
+      [
+        31890,
+        2232
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-glaze",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "stoneware"
+    ],
+    "description": "A ~9 hour mid-fire pottery profile to glaze fire stoneware to cone 6 (2232F) with a 10 minute soak at peak to smooth and even out the glaze.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        3330,
+        250
+      ],
+      [
+        22359,
+        2100
+      ],
+      [
+        26759,
+        2232
+      ],
+      [
+        27659,
+        2232
+      ],
+      [
+        30059,
+        2132
+      ],
+      [
+        31859,
+        2132
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-glaze-drop-and-hold",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "drop-and-hold",
+      "soak"
+    ],
+    "description": "A cone 6 glaze firing with a drop-and-hold: a 15 minute soak at peak followed by a 30 minute hold 100F cooler. This evens out the chamber and heals pinholes in glazes.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        12044,
+        1982
+      ],
+      [
+        16544,
+        2232
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-glaze-fast-bartlett",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "fast",
+      "bartlett"
+    ],
+    "description": "The Bartlett controller fast cone 6 glaze firing: the fast cone 04 schedule with 287F added to the last two targets, ramping 570F/hr to 1982F then 200F/hr to 2232F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        4200,
+        250
+      ],
+      [
+        19050,
+        1900
+      ],
+      [
+        29010,
+        2232
+      ],
+      [
+        29610,
+        2232
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-glaze-medium",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "medium",
+      "kilnschedule"
+    ],
+    "description": "A medium cone 6 glaze schedule: slow 150F/hr climb off the floor, fast 400F/hr through the dry middle, then a 120F/hr final ramp to 2232F with a 10 minute hold.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        4200,
+        250
+      ],
+      [
+        19788,
+        1982
+      ],
+      [
+        27288,
+        2232
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-glaze-slow-bartlett",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "slow",
+      "bartlett"
+    ],
+    "description": "The Bartlett slow cone 6 glaze firing (Digitalfire BRTS6): 400F/hr to 1982F then a 120F/hr final ramp to 2232F with no holds.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        5580,
+        220
+      ],
+      [
+        23889,
+        2000
+      ],
+      [
+        28689,
+        2200
+      ],
+      [
+        29589,
+        2200
+      ],
+      [
+        29949,
+        2150
+      ],
+      [
+        30849,
+        2150
+      ],
+      [
+        52449,
+        1400
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-glaze-slow-cool",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "slow-cool",
+      "crystalline"
+    ],
+    "description": "A cone 6 glaze firing with a slow cool from 2150F down to 1400F at 125F/hr. This slow cooling develops crystals, iron reds and richer glaze surfaces; used for crystalline glazes.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        11100,
+        1000
+      ],
+      [
+        20100,
+        1500
+      ],
+      [
+        34500,
+        2100
+      ],
+      [
+        38900,
+        2232
+      ],
+      [
+        39800,
+        2232
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-glaze-standard-kilnshed",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "standard",
+      "kilnshed"
+    ],
+    "description": "A Kiln Shed standard cone 6 glaze schedule: fast climb through the first 1000F, easing through the melting zone, and a 108F/hr final ramp to 2232F with a 15 minute hold.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        2520,
+        250
+      ],
+      [
+        6120,
+        250
+      ],
+      [
+        25149,
+        2100
+      ],
+      [
+        28482,
+        2200
+      ],
+      [
+        29082,
+        2200
+      ],
+      [
+        29442,
+        2100
+      ],
+      [
+        31242,
+        2100
+      ],
+      [
+        32467,
+        1760
+      ],
+      [
+        35467,
+        1760
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-iron-reds",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "iron-reds",
+      "crystalline",
+      "digitalfire"
+    ],
+    "description": "The Digitalfire C6IRED cone 6 iron red schedule: a normal peak soak, a drop-and-hold to 2100F, then a 50 minute hold at 1760F to grow iron crystals.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        5175,
+        180
+      ],
+      [
+        8775,
+        180
+      ],
+      [
+        9495,
+        200
+      ],
+      [
+        23095,
+        1900
+      ],
+      [
+        32962,
+        2196
+      ],
+      [
+        33862,
+        2196
+      ],
+      [
+        50566,
+        1500
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-kline-controlled-cool",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "slow-cool",
+      "mtvision"
+    ],
+    "description": "The MtVision/Kline cone 6 glaze firing with a controlled cool: 15 minute hold at 2196F then a 150F/hr cool to 1500F for improved glaze surfaces.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        65
+      ],
+      [
+        5175,
+        180
+      ],
+      [
+        8775,
+        180
+      ],
+      [
+        10035,
+        250
+      ],
+      [
+        16785,
+        1000
+      ],
+      [
+        19785,
+        1150
+      ],
+      [
+        26325,
+        1695
+      ],
+      [
+        41775,
+        2210
+      ],
+      [
+        42975,
+        2210
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-kline-natural-cool",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "natural-cool",
+      "mtvision"
+    ],
+    "description": "The MtVision/Kline cone 6 glaze firing with a natural (free-fall) cooling: an hour candling at 180F, quartz inversion slowdown, then a 20 minute hold at 2210F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
         65
       ],
       [
@@ -172,5 +2228,1022 @@
     "description": "A 13 hour pottery profile to glaze fire wares to cone 6. It candles for two hours and has slow ramps intended to burn off carbon for less bubbles during glaze firing.",
     "units": "F",
     "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        5309,
+        221
+      ],
+      [
+        22859,
+        1976
+      ],
+      [
+        27941,
+        2192
+      ],
+      [
+        28841,
+        2192
+      ],
+      [
+        31460,
+        1832
+      ],
+      [
+        43802,
+        1400
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-mastering-glazes",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "slow-cool",
+      "digitalfire"
+    ],
+    "description": "The Mastering Glazes cone 6 schedule (Digitalfire C6MSGL1): a 15 minute hold at 2192F, then controlled drops to 1832F and a 126F/hr cool to 1400F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        2610,
+        220
+      ],
+      [
+        6210,
+        220
+      ],
+      [
+        16290,
+        500
+      ],
+      [
+        29090,
+        2100
+      ],
+      [
+        31790,
+        2175
+      ],
+      [
+        35390,
+        2175
+      ],
+      [
+        35561,
+        1700
+      ],
+      [
+        42761,
+        1600
+      ],
+      [
+        46361,
+        1600
+      ],
+      [
+        53561,
+        1500
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-raw-glaze-steven-hill",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "raw-glaze",
+      "once-fire",
+      "slow-cool",
+      "steven-hill"
+    ],
+    "description": "Steven Hill's cone 6 raw-glaze (once-fire) schedule: candle at 220F, fast climb to 2100F, one hour soak at 2175F to drop cone 6, crash cool to 1700F, then 50F/hr to 1500F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        3150,
+        250
+      ],
+      [
+        9900,
+        1000
+      ],
+      [
+        12900,
+        1150
+      ],
+      [
+        22704,
+        1967
+      ],
+      [
+        28794,
+        2170
+      ],
+      [
+        29094,
+        2170
+      ],
+      [
+        36870,
+        1900
+      ],
+      [
+        38670,
+        1900
+      ]
+    ],
+    "type": "profile",
+    "name": "cone-6-slow-cool-finkle",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "slow-cool",
+      "pinhole",
+      "finkle"
+    ],
+    "description": "Camille Hoffman's cone 6 slow-cool schedule shared by Finkle Pottery: 120F/hr finish to 2170F, then a 125F/hr controlled cool to 1900F held 30 minutes to heal pinholes.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        6340,
+        392
+      ],
+      [
+        10660,
+        932
+      ],
+      [
+        16240,
+        2327
+      ],
+      [
+        16292,
+        2066
+      ],
+      [
+        17192,
+        2066
+      ],
+      [
+        23792,
+        1967
+      ]
+    ],
+    "type": "profile",
+    "name": "crystalline-gc106",
+    "tags": [
+      "pottery",
+      "glaze",
+      "crystalline",
+      "cone10",
+      "gc106",
+      "shimbo"
+    ],
+    "description": "The GC106 crystalline glaze base schedule (Digitalfire FSCRGL): crash cool to 2066F for 15 minutes then a 54F/hr crawl to 1967F for large, quickly growing crystals.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        8140,
+        482
+      ],
+      [
+        9580,
+        662
+      ],
+      [
+        16168,
+        2309
+      ],
+      [
+        16217,
+        2066
+      ],
+      [
+        16817,
+        2066
+      ],
+      [
+        25045,
+        1922
+      ],
+      [
+        25645,
+        1922
+      ]
+    ],
+    "type": "profile",
+    "name": "crystalline-shimbo-celestite",
+    "tags": [
+      "pottery",
+      "glaze",
+      "crystalline",
+      "cone10",
+      "celestite",
+      "shimbo"
+    ],
+    "description": "Fara Shimbo's celestite crystalline schedule (Digitalfire FSCGCL): crash cool from 2309F to 2066F then a glacial 63F/hr crawl to 1922F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        8140,
+        482
+      ],
+      [
+        11740,
+        932
+      ],
+      [
+        16928,
+        2229
+      ],
+      [
+        17362,
+        2012
+      ],
+      [
+        20962,
+        1832
+      ],
+      [
+        22762,
+        1922
+      ],
+      [
+        24562,
+        1922
+      ],
+      [
+        25642,
+        1868
+      ],
+      [
+        27442,
+        1868
+      ]
+    ],
+    "type": "profile",
+    "name": "crystalline-shimbo-holding-1",
+    "tags": [
+      "pottery",
+      "glaze",
+      "crystalline",
+      "cone6",
+      "slant-soak",
+      "shimbo"
+    ],
+    "description": "Fara Shimbo's crystalline holding pattern 1 (Digitalfire FSHP1): crash cool from 2229F then a slant-soak up to 1922F and down to 1868F to grow and shape zinc silicate crystals.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        6340,
+        392
+      ],
+      [
+        10660,
+        932
+      ],
+      [
+        16132,
+        2300
+      ],
+      [
+        16799,
+        1967
+      ],
+      [
+        22199,
+        1967
+      ],
+      [
+        22289,
+        2012
+      ],
+      [
+        23189,
+        2012
+      ],
+      [
+        23279,
+        1967
+      ],
+      [
+        26879,
+        1967
+      ],
+      [
+        26969,
+        1922
+      ],
+      [
+        27869,
+        1922
+      ],
+      [
+        27959,
+        1967
+      ],
+      [
+        31559,
+        1967
+      ]
+    ],
+    "type": "profile",
+    "name": "crystalline-shimbo-holding-2",
+    "tags": [
+      "pottery",
+      "glaze",
+      "crystalline",
+      "cone10",
+      "holding-pattern",
+      "shimbo"
+    ],
+    "description": "Fara Shimbo's crystalline holding pattern 2 (Digitalfire FSCGB1): crash cool to 1967F with repeated drops and reheats across the crystal-growing range for manganese Bory 1 crystals.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        8140,
+        482
+      ],
+      [
+        11740,
+        932
+      ],
+      [
+        16928,
+        2229
+      ],
+      [
+        17453,
+        1967
+      ],
+      [
+        18353,
+        1967
+      ],
+      [
+        19253,
+        2012
+      ],
+      [
+        20153,
+        2012
+      ],
+      [
+        21053,
+        1967
+      ],
+      [
+        21953,
+        1967
+      ],
+      [
+        22853,
+        1922
+      ],
+      [
+        23753,
+        1922
+      ],
+      [
+        24653,
+        1967
+      ],
+      [
+        25553,
+        1967
+      ]
+    ],
+    "type": "profile",
+    "name": "crystalline-shimbo-holding-3",
+    "tags": [
+      "pottery",
+      "glaze",
+      "crystalline",
+      "cone6",
+      "holding-pattern",
+      "shimbo"
+    ],
+    "description": "Fara Shimbo's crystalline holding pattern 3 (Digitalfire FSHP3): gentle 180F/hr slant-soak steps across the crystal-growing range rather than crash cooling.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        6340,
+        392
+      ],
+      [
+        10660,
+        932
+      ],
+      [
+        16204,
+        2318
+      ],
+      [
+        16265,
+        2012
+      ],
+      [
+        23465,
+        2012
+      ]
+    ],
+    "type": "profile",
+    "name": "crystalline-shimbo-number-five",
+    "tags": [
+      "pottery",
+      "glaze",
+      "crystalline",
+      "cone10",
+      "shimbo"
+    ],
+    "description": "Fa's Number Five crystalline schedule (Digitalfire FSNM5): crash cool from 2318F to 2012F with a two hour hold for the FAC5 spodumene-talc glaze.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        6340,
+        392
+      ],
+      [
+        10660,
+        932
+      ],
+      [
+        16240,
+        2327
+      ],
+      [
+        16285,
+        2102
+      ],
+      [
+        24685,
+        1976
+      ]
+    ],
+    "type": "profile",
+    "name": "crystalline-shimbo-wollast-omatte",
+    "tags": [
+      "pottery",
+      "glaze",
+      "crystalline",
+      "cone10",
+      "shimbo"
+    ],
+    "description": "Fara Shimbo's Wollast-O-Matte crystalline schedule (Digitalfire FSCGWM): crash cool from 2327F then a 54F/hr crawl to 1976F to grow crystals in the Wollastonite matte.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        630,
+        110
+      ],
+      [
+        2430,
+        110
+      ],
+      [
+        4194,
+        208
+      ],
+      [
+        6894,
+        208
+      ],
+      [
+        14012,
+        900
+      ],
+      [
+        17149,
+        1510
+      ],
+      [
+        18349,
+        1510
+      ]
+    ],
+    "type": "profile",
+    "name": "decal-fire",
+    "tags": [
+      "pottery",
+      "decal",
+      "low-fire",
+      "digitalfire"
+    ],
+    "description": "The Medalta decal firing schedule: low gentle ramps with holds at 110F and 208F to burn out the decal medium, then a climb to 1510F with a 20 minute hold.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        4833,
+        220
+      ],
+      [
+        8433,
+        220
+      ],
+      [
+        27390,
+        2063
+      ],
+      [
+        27990,
+        2063
+      ],
+      [
+        31323,
+        2163
+      ],
+      [
+        31923,
+        2163
+      ],
+      [
+        32323,
+        2063
+      ],
+      [
+        34123,
+        2063
+      ],
+      [
+        50035,
+        1400
+      ]
+    ],
+    "type": "profile",
+    "name": "plainsman-cone-5-drop-soak",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone5",
+      "drop-and-hold",
+      "slow-cool",
+      "digitalfire"
+    ],
+    "description": "The Plainsman C5DHSC cone 5 drop-and-hold slow-cool schedule: a mid-fire glaze firing with holds at peak, a drop-and-hold 100F lower, then a 150F/hr cool to 1400F.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        5833,
+        250
+      ],
+      [
+        9433,
+        250
+      ],
+      [
+        28462,
+        2100
+      ],
+      [
+        31795,
+        2200
+      ],
+      [
+        32395,
+        2200
+      ],
+      [
+        32795,
+        2100
+      ],
+      [
+        34595,
+        2100
+      ]
+    ],
+    "type": "profile",
+    "name": "plainsman-cone-6-drop-soak",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "drop-and-hold",
+      "soak",
+      "digitalfire"
+    ],
+    "description": "The Plainsman PLC6DS cone 6 drop-and-soak schedule: eases to 2200F, drops 100F and soaks 30 minutes to heal blisters and pinholes without over-matteing the glaze.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        5833,
+        250
+      ],
+      [
+        9433,
+        250
+      ],
+      [
+        28462,
+        2100
+      ],
+      [
+        29362,
+        2100
+      ],
+      [
+        32695,
+        2200
+      ],
+      [
+        33295,
+        2200
+      ],
+      [
+        33695,
+        2100
+      ],
+      [
+        35495,
+        2100
+      ],
+      [
+        52295,
+        1400
+      ]
+    ],
+    "type": "profile",
+    "name": "plainsman-cone-6-slow-cool",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "slow-cool",
+      "reactive",
+      "digitalfire"
+    ],
+    "description": "The Plainsman C6DHSC cone 6 drop-and-hold slow-cool schedule: soaks at peak and on the way down, then cools at 150F/hr to 1400F to grow crystals and improve reactive glaze surfaces.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        6300,
+        250
+      ],
+      [
+        9900,
+        250
+      ],
+      [
+        28929,
+        2100
+      ],
+      [
+        32262,
+        2200
+      ],
+      [
+        32862,
+        2200
+      ]
+    ],
+    "type": "profile",
+    "name": "plainsman-cone-6-standard",
+    "tags": [
+      "pottery",
+      "glaze",
+      "cone6",
+      "standard",
+      "digitalfire"
+    ],
+    "description": "The Plainsman C6PLST cone 6 electric standard: a simple three-step firing to 2200F with a 10 minute hold, used to fire clay test bars and unglazed ware.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        2035,
+        248
+      ],
+      [
+        5635,
+        248
+      ],
+      [
+        23106,
+        1733
+      ],
+      [
+        26406,
+        1832
+      ],
+      [
+        27306,
+        1832
+      ]
+    ],
+    "type": "profile",
+    "name": "plainsman-electric-bisque",
+    "tags": [
+      "pottery",
+      "bisque",
+      "cone05",
+      "digitalfire"
+    ],
+    "description": "The Plainsman BQ1000 electric bisque firing: holds at 248F to dry the ware, climbs to 1733F, then eases to 1832F (cone 05) with a 15 minute hold.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        75
+      ],
+      [
+        2520,
+        250
+      ],
+      [
+        6120,
+        250
+      ],
+      [
+        18990,
+        965
+      ],
+      [
+        20790,
+        965
+      ],
+      [
+        30390,
+        1165
+      ],
+      [
+        32190,
+        1165
+      ],
+      [
+        49020,
+        2100
+      ],
+      [
+        52620,
+        2200
+      ],
+      [
+        53520,
+        2200
+      ],
+      [
+        78360,
+        1165
+      ],
+      [
+        80160,
+        1165
+      ],
+      [
+        89760,
+        965
+      ],
+      [
+        91560,
+        965
+      ],
+      [
+        108720,
+        250
+      ]
+    ],
+    "type": "profile",
+    "name": "quartz-inversion-avoider",
+    "tags": [
+      "pottery",
+      "quartz-inversion",
+      "cracking",
+      "large-piece",
+      "digitalfire"
+    ],
+    "description": "A Digitalfire QICA schedule that slows and holds around the quartz inversion zone (1063F) on both heating and cooling to prevent cracking in large or thick pieces.",
+    "units": "F",
+    "category": "pottery"
+  },
+  {
+    "data": [
+      [
+        0,
+        18
+      ],
+      [
+        6384,
+        550
+      ],
+      [
+        9984,
+        550
+      ]
+    ],
+    "type": "profile",
+    "name": "ash-sample",
+    "tags": [
+      "scientific",
+      "ash",
+      "ashing",
+      "organic"
+    ],
+    "description": "Standard ashing of organic samples: heat to 550C and hold 60 minutes to determine ash or inorganic content.",
+    "units": "C",
+    "category": "scientific"
+  },
+  {
+    "data": [
+      [
+        0,
+        18
+      ],
+      [
+        16776,
+        950
+      ],
+      [
+        20376,
+        950
+      ]
+    ],
+    "type": "profile",
+    "name": "calcination",
+    "tags": [
+      "scientific",
+      "calcination",
+      "decomposition"
+    ],
+    "description": "General calcination schedule: heat to 950C and hold 60 minutes to drive off volatiles and decompose carbonates or hydrates.",
+    "units": "C",
+    "category": "scientific"
+  },
+  {
+    "data": [
+      [
+        0,
+        18
+      ],
+      [
+        55152,
+        1550
+      ],
+      [
+        58752,
+        1550
+      ]
+    ],
+    "type": "profile",
+    "name": "element-season",
+    "tags": [
+      "scientific",
+      "furnace",
+      "mosi2",
+      "season",
+      "elements"
+    ],
+    "description": "Initial seasoning of a new high-temperature furnace with MoSi2 elements: ramp at 100C/hr to 1550C and hold 1 hour to form the protective glass glaze on the elements.",
+    "units": "C",
+    "category": "scientific"
+  },
+  {
+    "data": [
+      [
+        0,
+        18
+      ],
+      [
+        3492,
+        600
+      ],
+      [
+        8892,
+        1500
+      ],
+      [
+        16092,
+        1500
+      ],
+      [
+        22842,
+        600
+      ]
+    ],
+    "type": "profile",
+    "name": "sinter-zirconia",
+    "tags": [
+      "scientific",
+      "sinter",
+      "zirconia",
+      "ceramic"
+    ],
+    "description": "Typical zirconia ceramic sintering: ramp at 600C/hr (10C/min) to 1500C, hold 2 hours, then cool at 480C/hr. Verify against your material's recommended profile.",
+    "units": "C",
+    "category": "scientific"
   }
 ]

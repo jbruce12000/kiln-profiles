@@ -1,0 +1,1 @@
+{"data":[[0,18],[3492,600],[8892,1500],[16092,1500],[22842,600]],"type":"profile","name":"sinter-zirconia","tags":["scientific","sinter","zirconia","ceramic"],"description":"Typical zirconia ceramic sintering: ramp at 600C/hr (10C/min) to 1500C, hold 2 hours, then cool at 480C/hr. Verify against your material's recommended profile.","units":"C"}
